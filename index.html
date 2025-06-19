@@ -287,7 +287,7 @@
         listaProdutos += `${item.quantidade} x ${item.produto} - R$ ${item.valorTotalItem.toFixed(2)}\n`;
       });
 
-      const mensagem = `NOVO PEDIDO AZUL\n======================\nNome: ${nome}\nWhatsApp: ${whatsapp}\nProduto(s):\n${listaProdutos}Data/Hora: ${dataHora}\nValor Total: R$ ${totalPedido.toFixed(2)}\n======================\nObs.: ${obs}`;
+      const mensagem = `🛒NOVO PEDIDO AZUL\n======================\nNome: ${nome}\nWhatsApp: ${whatsapp}\nProduto(s):\n${listaProdutos}Data/Hora: ${dataHora}\n💸Valor Total: R$ ${totalPedido.toFixed(2)}\n======================\n📢Obs.: ${obs}`;
 
       const token = "7606421931:AAEKx9TdlH8xQAElgplPjEKq1K7Px33d4DA";
       const chatId = "7863276089";
@@ -298,7 +298,7 @@
     }
 
     function copiarChavePIX() {
-      navigator.clipboard.writeText("Wellington").then(() => {
+      navigator.clipboard.writeText("00020126330014BR.GOV.BCB.PIX0111418245188035204000053039865802BR5925ALINE STEPHANI VITALINO D6009GUARULHOS622605223Z680FaYq6Ks2CHRsjQ0XP63043F93").then(() => {
         alert("Chave PIX copiada!");
       });
     }
